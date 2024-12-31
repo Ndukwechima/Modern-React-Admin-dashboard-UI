@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import OverviewPage from "./pages/OverviewPage";
 import ProductsPage from "./pages/ProductsPage";
 import Sidebar from "./components/Common/Sidebar";
+import UsersPage from "./pages/UsersPage";
 
 const App = () => {
   return (
@@ -13,12 +14,12 @@ const App = () => {
         <div className="absolute inset-0 backdrop-blur-sm" />
       </div>
 
-
-    {/* Sidebar */}
-    <Sidebar />
+      {/* Sidebar */}
+      <Sidebar />
       <Routes>
         <Route path="/" element={<OverviewPage />} />
         <Route path="/products" element={<ProductsPage />} />
+        <Route path="/users" element={<UsersPage />} />
       </Routes>
     </div>
   );
