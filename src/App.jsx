@@ -5,6 +5,7 @@ import ProductsPage from "./pages/ProductsPage";
 import Sidebar from "./components/Common/Sidebar";
 import UsersPage from "./pages/UsersPage";
 import SalesPage from "./pages/SalesPage";
+import OrdersPage from "./pages/OrdersPage";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/users" element={<UsersPage />} />
         <Route path="/sales" element={<SalesPage />} />
+        <Route path="/orders" element={<OrdersPage />} />
       </Routes>
     </div>
   );
