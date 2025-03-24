@@ -31,8 +31,8 @@ const RevenueChart = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.2 }}
     >
-      <div className="flex justify-between items-center mb-6">
-        <h2 className="text-xl font-semibold text-gray-800">
+      <div className="flex flex-col sm:flex-row justify-between items-center mb-6">
+        <h2 className="md:text-xl font-semibold text-gray-800 whitespace-nowrap py-2">
           Revenue vs Target
         </h2>
         <select

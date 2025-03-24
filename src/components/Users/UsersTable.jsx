@@ -68,7 +68,7 @@ const UsersTable = () => {
           <input
             type="text"
             placeholder="Search users..."
-            className="w-60 bg-[#8000FF] text-white placeholder-white rounded-lg pl-10 pr-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-44 sm:w-60 bg-[#8000FF] text-white placeholder-white rounded-lg pl-10 pr-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
             value={searchTerm}
             onChange={handleSearch}
           />

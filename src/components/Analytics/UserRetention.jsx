@@ -24,7 +24,9 @@ const userRetentionData = [
 const UserRetention = () => {
   return (
     <motion.div
-      className="bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-lg rounded-xl p-6 border border-[#8000FF]"
+      className="bg-white bg-opacity-50 backdrop-filter 
+      backdrop-blur-lg shadow-lg rounded-xl p-6 border 
+      border-[#8000FF]"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.5 }}
